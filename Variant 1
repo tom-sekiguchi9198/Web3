@@ -1,0 +1,10 @@
+class MultiplicationChart:
+    @staticmethod
+    def generate_chart():
+        chart = []
+        for i in range(1, 13):
+            row = []
+            for j in range(1, 13):
+                row.append(i * j)
+            chart.append(row)
+        return chart
